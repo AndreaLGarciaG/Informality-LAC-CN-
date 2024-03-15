@@ -2,6 +2,7 @@ help shell
 clear
 cap cd "C:\Users\wb609682\OneDrive - WBG\Documents\GitHub\Informality-LAC-CN-"
 
+*Example of graphics
 sysuse auto, clear
 scatter price mpg 
 graph export ./figures/figure1.png, replace wid(1000)
