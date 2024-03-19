@@ -2,6 +2,8 @@ help shell
 clear
 cap cd "C:\Users\wb609682\OneDrive - WBG\Documents\GitHub\Informality-LAC-CN-"
 
+*Nota para ver cambios de prueba ///
+
 *Example of graphics
 sysuse auto, clear
 scatter price mpg 
