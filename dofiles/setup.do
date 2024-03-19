@@ -16,7 +16,6 @@ graph export ./figures/figure4.png, replace wid(1000)
 *To check if we have git installed
 dir 
 
-
 //Readme and hidden direcotry are essential for your folder to correctly synchronize online.
 
 *To create a readme file in the online repository
@@ -29,11 +28,13 @@ dir
 ! git add README.md
 ! git commit -m 'my first upload' //Message that describe the change that I just made and saves the first version of the file in case we would like to go back to them in the future and they are now part of the Git records. 
 
+*To define the branch where I'm going to be working, the -M is the messages that I record when I create the branch indicates that is the principal
+! git branch -M main
+
 *Directory where we want to add this file
 ! git remote add origin https://github.com/AndreaLGarciaG/Informality-LAC-CN-.git
 
-*
-! git branch -M main
+
 *Push the changes to the directory: Uploads all local branch commits to GitHub
 ! git push -u origin main
 
